@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FAFD8524B0CE9200CF2CF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFD8424B0CE9200CF2CF0 /* AppDelegate.swift */; };
+		11FAFD8724B0CE9200CF2CF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFD8624B0CE9200CF2CF0 /* SceneDelegate.swift */; };
+		11FAFD8A24B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFD8824B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodeld */; };
+		11FAFD8C24B0CE9200CF2CF0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFD8B24B0CE9200CF2CF0 /* ContentView.swift */; };
+		11FAFD8E24B0CE9900CF2CF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FAFD8D24B0CE9900CF2CF0 /* Assets.xcassets */; };
+		11FAFD9124B0CE9900CF2CF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FAFD9024B0CE9900CF2CF0 /* Preview Assets.xcassets */; };
+		11FAFD9424B0CE9900CF2CF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FAFD9224B0CE9900CF2CF0 /* LaunchScreen.storyboard */; };
+		11FAFD9F24B0CE9900CF2CF0 /* TAREA_8APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFD9E24B0CE9900CF2CF0 /* TAREA_8APPTests.swift */; };
+		11FAFDAA24B0CE9900CF2CF0 /* TAREA_8APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFDA924B0CE9900CF2CF0 /* TAREA_8APPUITests.swift */; };
+		11FAFDBC24B0D4D700CF2CF0 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FAFDBB24B0D4D700CF2CF0 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11FAFD9B24B0CE9900CF2CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FAFD7924B0CE9200CF2CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FAFD8024B0CE9200CF2CF0;
+			remoteInfo = "TAREA 8APP";
+		};
+		11FAFDA624B0CE9900CF2CF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11FAFD7924B0CE9200CF2CF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11FAFD8024B0CE9200CF2CF0;
+			remoteInfo = "TAREA 8APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11FAFD8124B0CE9200CF2CF0 /* TAREA 8APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TAREA 8APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FAFD8424B0CE9200CF2CF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11FAFD8624B0CE9200CF2CF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11FAFD8924B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TAREA_8APP.xcdatamodel; sourceTree = "<group>"; };
+		11FAFD8B24B0CE9200CF2CF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11FAFD8D24B0CE9900CF2CF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FAFD9024B0CE9900CF2CF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11FAFD9324B0CE9900CF2CF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11FAFD9524B0CE9900CF2CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FAFD9A24B0CE9900CF2CF0 /* TAREA 8APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAREA 8APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FAFD9E24B0CE9900CF2CF0 /* TAREA_8APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAREA_8APPTests.swift; sourceTree = "<group>"; };
+		11FAFDA024B0CE9900CF2CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FAFDA524B0CE9900CF2CF0 /* TAREA 8APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAREA 8APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FAFDA924B0CE9900CF2CF0 /* TAREA_8APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAREA_8APPUITests.swift; sourceTree = "<group>"; };
+		11FAFDAB24B0CE9900CF2CF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FAFDBB24B0D4D700CF2CF0 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FAFD7E24B0CE9200CF2CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FAFD9724B0CE9900CF2CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FAFDA224B0CE9900CF2CF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FAFD7824B0CE9200CF2CF0 = {
+			isa = PBXGroup;
+			children = (
+				11FAFD8324B0CE9200CF2CF0 /* TAREA 8APP */,
+				11FAFD9D24B0CE9900CF2CF0 /* TAREA 8APPTests */,
+				11FAFDA824B0CE9900CF2CF0 /* TAREA 8APPUITests */,
+				11FAFD8224B0CE9200CF2CF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11FAFD8224B0CE9200CF2CF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FAFD8124B0CE9200CF2CF0 /* TAREA 8APP.app */,
+				11FAFD9A24B0CE9900CF2CF0 /* TAREA 8APPTests.xctest */,
+				11FAFDA524B0CE9900CF2CF0 /* TAREA 8APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FAFD8324B0CE9200CF2CF0 /* TAREA 8APP */ = {
+			isa = PBXGroup;
+			children = (
+				11FAFD8424B0CE9200CF2CF0 /* AppDelegate.swift */,
+				11FAFD8624B0CE9200CF2CF0 /* SceneDelegate.swift */,
+				11FAFD8B24B0CE9200CF2CF0 /* ContentView.swift */,
+				11FAFDBB24B0D4D700CF2CF0 /* DetailView.swift */,
+				11FAFD8D24B0CE9900CF2CF0 /* Assets.xcassets */,
+				11FAFD9224B0CE9900CF2CF0 /* LaunchScreen.storyboard */,
+				11FAFD9524B0CE9900CF2CF0 /* Info.plist */,
+				11FAFD8824B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodeld */,
+				11FAFD8F24B0CE9900CF2CF0 /* Preview Content */,
+			);
+			path = "TAREA 8APP";
+			sourceTree = "<group>";
+		};
+		11FAFD8F24B0CE9900CF2CF0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11FAFD9024B0CE9900CF2CF0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11FAFD9D24B0CE9900CF2CF0 /* TAREA 8APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				11FAFD9E24B0CE9900CF2CF0 /* TAREA_8APPTests.swift */,
+				11FAFDA024B0CE9900CF2CF0 /* Info.plist */,
+			);
+			path = "TAREA 8APPTests";
+			sourceTree = "<group>";
+		};
+		11FAFDA824B0CE9900CF2CF0 /* TAREA 8APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11FAFDA924B0CE9900CF2CF0 /* TAREA_8APPUITests.swift */,
+				11FAFDAB24B0CE9900CF2CF0 /* Info.plist */,
+			);
+			path = "TAREA 8APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FAFD8024B0CE9200CF2CF0 /* TAREA 8APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FAFDAE24B0CE9900CF2CF0 /* Build configuration list for PBXNativeTarget "TAREA 8APP" */;
+			buildPhases = (
+				11FAFD7D24B0CE9200CF2CF0 /* Sources */,
+				11FAFD7E24B0CE9200CF2CF0 /* Frameworks */,
+				11FAFD7F24B0CE9200CF2CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TAREA 8APP";
+			productName = "TAREA 8APP";
+			productReference = 11FAFD8124B0CE9200CF2CF0 /* TAREA 8APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11FAFD9924B0CE9900CF2CF0 /* TAREA 8APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FAFDB124B0CE9900CF2CF0 /* Build configuration list for PBXNativeTarget "TAREA 8APPTests" */;
+			buildPhases = (
+				11FAFD9624B0CE9900CF2CF0 /* Sources */,
+				11FAFD9724B0CE9900CF2CF0 /* Frameworks */,
+				11FAFD9824B0CE9900CF2CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FAFD9C24B0CE9900CF2CF0 /* PBXTargetDependency */,
+			);
+			name = "TAREA 8APPTests";
+			productName = "TAREA 8APPTests";
+			productReference = 11FAFD9A24B0CE9900CF2CF0 /* TAREA 8APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11FAFDA424B0CE9900CF2CF0 /* TAREA 8APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FAFDB424B0CE9900CF2CF0 /* Build configuration list for PBXNativeTarget "TAREA 8APPUITests" */;
+			buildPhases = (
+				11FAFDA124B0CE9900CF2CF0 /* Sources */,
+				11FAFDA224B0CE9900CF2CF0 /* Frameworks */,
+				11FAFDA324B0CE9900CF2CF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11FAFDA724B0CE9900CF2CF0 /* PBXTargetDependency */,
+			);
+			name = "TAREA 8APPUITests";
+			productName = "TAREA 8APPUITests";
+			productReference = 11FAFDA524B0CE9900CF2CF0 /* TAREA 8APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FAFD7924B0CE9200CF2CF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pedro Hamue";
+				TargetAttributes = {
+					11FAFD8024B0CE9200CF2CF0 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					11FAFD9924B0CE9900CF2CF0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 11FAFD8024B0CE9200CF2CF0;
+					};
+					11FAFDA424B0CE9900CF2CF0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 11FAFD8024B0CE9200CF2CF0;
+					};
+				};
+			};
+			buildConfigurationList = 11FAFD7C24B0CE9200CF2CF0 /* Build configuration list for PBXProject "TAREA 8APP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FAFD7824B0CE9200CF2CF0;
+			productRefGroup = 11FAFD8224B0CE9200CF2CF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FAFD8024B0CE9200CF2CF0 /* TAREA 8APP */,
+				11FAFD9924B0CE9900CF2CF0 /* TAREA 8APPTests */,
+				11FAFDA424B0CE9900CF2CF0 /* TAREA 8APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FAFD7F24B0CE9200CF2CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FAFD9424B0CE9900CF2CF0 /* LaunchScreen.storyboard in Resources */,
+				11FAFD9124B0CE9900CF2CF0 /* Preview Assets.xcassets in Resources */,
+				11FAFD8E24B0CE9900CF2CF0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FAFD9824B0CE9900CF2CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FAFDA324B0CE9900CF2CF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FAFD7D24B0CE9200CF2CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FAFD8A24B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodeld in Sources */,
+				11FAFD8524B0CE9200CF2CF0 /* AppDelegate.swift in Sources */,
+				11FAFD8C24B0CE9200CF2CF0 /* ContentView.swift in Sources */,
+				11FAFDBC24B0D4D700CF2CF0 /* DetailView.swift in Sources */,
+				11FAFD8724B0CE9200CF2CF0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FAFD9624B0CE9900CF2CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FAFD9F24B0CE9900CF2CF0 /* TAREA_8APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11FAFDA124B0CE9900CF2CF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FAFDAA24B0CE9900CF2CF0 /* TAREA_8APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11FAFD9C24B0CE9900CF2CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FAFD8024B0CE9200CF2CF0 /* TAREA 8APP */;
+			targetProxy = 11FAFD9B24B0CE9900CF2CF0 /* PBXContainerItemProxy */;
+		};
+		11FAFDA724B0CE9900CF2CF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11FAFD8024B0CE9200CF2CF0 /* TAREA 8APP */;
+			targetProxy = 11FAFDA624B0CE9900CF2CF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11FAFD9224B0CE9900CF2CF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FAFD9324B0CE9900CF2CF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FAFDAC24B0CE9900CF2CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11FAFDAD24B0CE9900CF2CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FAFDAF24B0CE9900CF2CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TAREA 8APP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TAREA 8APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamue.TAREA-8APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11FAFDB024B0CE9900CF2CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TAREA 8APP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TAREA 8APP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamue.TAREA-8APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11FAFDB224B0CE9900CF2CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TAREA 8APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamue.TAREA-8APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAREA 8APP.app/TAREA 8APP";
+			};
+			name = Debug;
+		};
+		11FAFDB324B0CE9900CF2CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TAREA 8APPTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamue.TAREA-8APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAREA 8APP.app/TAREA 8APP";
+			};
+			name = Release;
+		};
+		11FAFDB524B0CE9900CF2CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TAREA 8APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamue.TAREA-8APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TAREA 8APP";
+			};
+			name = Debug;
+		};
+		11FAFDB624B0CE9900CF2CF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TAREA 8APPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hamue.TAREA-8APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TAREA 8APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FAFD7C24B0CE9200CF2CF0 /* Build configuration list for PBXProject "TAREA 8APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FAFDAC24B0CE9900CF2CF0 /* Debug */,
+				11FAFDAD24B0CE9900CF2CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FAFDAE24B0CE9900CF2CF0 /* Build configuration list for PBXNativeTarget "TAREA 8APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FAFDAF24B0CE9900CF2CF0 /* Debug */,
+				11FAFDB024B0CE9900CF2CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FAFDB124B0CE9900CF2CF0 /* Build configuration list for PBXNativeTarget "TAREA 8APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FAFDB224B0CE9900CF2CF0 /* Debug */,
+				11FAFDB324B0CE9900CF2CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FAFDB424B0CE9900CF2CF0 /* Build configuration list for PBXNativeTarget "TAREA 8APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FAFDB524B0CE9900CF2CF0 /* Debug */,
+				11FAFDB624B0CE9900CF2CF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		11FAFD8824B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				11FAFD8924B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodel */,
+			);
+			currentVersion = 11FAFD8924B0CE9200CF2CF0 /* TAREA_8APP.xcdatamodel */;
+			path = TAREA_8APP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11FAFD7924B0CE9200CF2CF0 /* Project object */;
+}
